@@ -1,0 +1,92 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+    text-align: center;
+    color:cornsilk;
+    font-size: 60px;
+    border-color: black;
+}
+.topnav{
+    margin-left: 582px;
+}
+.page{
+    text-decoration: none;
+    color:cornsilk;
+    font-size: 20px;
+}
+
+.page:hover{
+    color: black;
+}
+
+.container{
+    padding: 40px;
+    margin-top: 40px;
+    width: 800px;
+    height: 400px;
+    background: hsl(240, 96%, 56%);
+    background: transparent;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+}
+
+.convert{
+    display: inline-flex;
+}
+
+p{
+    padding-right: 250px;
+    font-weight: bold;
+    font-size: 25px;
+    color:cornsilk;
+}
+
+input[type="number"]{
+    height: 33px;
+    border:1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+select{
+    margin-left: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+select:hover{
+    background-color: bisque;
+}
+
+input[type="submit"]{
+    margin: 40px 180px;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+
+input[type="submit"]:hover{
+    background-color:bisque;
+    cursor: pointer;
+}
+
+#results{
+    font-size: 40px;
+    font-weight: bold;
+    color:cornsilk;
+}
